@@ -3,7 +3,7 @@
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
 
 %define		_beta	beta10
-%define		_rel	1
+%define		_rel	2
 Summary:	mcache PHP Extension
 Summary(pl.UTF-8):	Rozszerzenie PHP mcache
 Name:		php-%{_name}
