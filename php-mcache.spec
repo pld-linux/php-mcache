@@ -3,12 +3,12 @@
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
 
 %define		_beta	beta10
-%define		_rel	2
+%define		rel	3
 Summary:	mcache PHP Extension
 Summary(pl.UTF-8):	Rozszerzenie PHP mcache
 Name:		php-%{_name}
 Version:	1.2.0
-Release:	0.%{_beta}.%{_rel}
+Release:	0.%{_beta}.%{rel}
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://www.klir.com/~johnm/php-mcache/php-mcache-ext-%{version}-%{_beta}.tar.gz
